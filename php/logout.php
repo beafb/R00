@@ -1,5 +1,8 @@
 <?php
-function logout(void) {
-	$_SEESION['loggued_on_user'] == NULL;
+include("exit_to.php");
+function logout() {
+	$_SESSION['loggued_on_user'] == NULL;
 }
+logout();
+exit_to("sign_in.php");
  ?>

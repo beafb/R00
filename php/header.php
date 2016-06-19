@@ -8,8 +8,8 @@
 	<a href="sign_in.php">
 		<img id="account" src="../img/account.png"/>
 	</a>
-	<a href="shop.php">
-		<img id="shop" src="../img/shop.png"/>
+	<a href="panier.php">
+		<img id="shop" src="../img/cart.png"/>
 	</a>
 	<?php if (isset($_SERVER['login'])) echo "<img id=\"logout\" src=\"./img/logout.png\"/>"; ?>
 </div>
