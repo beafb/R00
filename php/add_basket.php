@@ -1,6 +1,15 @@
 <?php
 	session_start();
-	if (isset($_GET['item'])) {
+	function is_item($item){
+		if ($item === 'peer' || $item === "peach" || $item === "apple"
+			|| $item === 'kiwi' || $item === 'coco' || $item === 'mango') {
+				return TRUE ;
+			}
+		else {
+			return FALSE ;
+		}
+	}
+	if (isset($_GET['item']) && is_item($_GET['item'])) {
 		if (!isset($_SESSION['basket'])) {
 			$basket['item'] = $_GET['item'];
 			$basket['qty'] = 1;
