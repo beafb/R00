@@ -1,0 +1,74 @@
+#header, #footer
+{
+	width: 99%;
+	height: 40px;
+	margin: -12px;
+	padding: 20px;
+	background-color: #4d4dff;
+	text-align: center;
+}
+
+#header
+{
+	margin-bottom: 30px;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0;
+}
+
+.main_bloc
+{
+	padding: 20px;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+img
+{
+	width: 40px;
+	height: 40px;
+	margin-right: 12px;
+}
+
+#website_name
+{
+	font-size: 1.8em;
+	margin-left: 110px;
+}
+
+#home
+{
+	position: fixed;
+	left: 30px;
+}
+
+#account, #shop, #logout
+{
+	float: right;
+}
+
+input[type=submit]
+{
+	width: 50px;
+	height: 80px;
+	font-size: 2em;
+}
+
+#previous
+{
+	width: 25px;
+	height: 25px;
+}
+
+#anan {
+	margin-left: auto;
+	width: 50%;
+	height: 50%;
+}
