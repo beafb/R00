@@ -8,7 +8,7 @@
 	<a href="sign_in.php">
 		<img id="account" src="../img/account.png"/>
 	</a>
-	<a href="panier.php">
+	<a href="basket.php">
 		<img id="shop" src="../img/cart.png"/>
 	</a>
 </div>
