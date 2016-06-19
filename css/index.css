@@ -67,8 +67,18 @@ input[type=submit]
 	height: 25px;
 }
 
-#anan {
-	margin-left: auto;
-	width: 50%;
-	height: 50%;
+p {
+	font-family: arial;
 }
+
+.market {
+	margin-left: 50%;
+	margin-right: 50%;
+	width: auto;
+display: flex;
+flex-direction: row;
+}
+ .fruits {
+	 margin-left: 40px;
+	 margin-right: 40px;
+ }
