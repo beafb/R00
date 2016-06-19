@@ -3,7 +3,7 @@ include("exit_to.php");
 include("login.php");
   if ($_POST['login'] && hash("whirlpool", $_POST['passwd'])) {
     if (login(hash("whirlpool", $_POST['passwd']), $_POST['login'])) {
-        exit_to("./boutique.php");
+        exit_to("./boutique.php?");
       }
       else {
 				$error = "username ou Mdp incorrect !!!";
