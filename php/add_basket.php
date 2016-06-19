@@ -26,7 +26,7 @@
 					}
 			}
 			$basket['item'] = $_GET['item'];
-			$basket['gty'] = 1;
+			$basket['qty'] = 1;
 			$_SESSION['basket'][] = $basket;
 			print_r($basket);
 		}
