@@ -8,6 +8,17 @@
 	text-align: center;
 }
 
+#tablo{
+	margin-top: 5vw;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+td {
+	position: relative;
+}
+
 #header
 {
 	margin-bottom: 30px;
@@ -19,6 +30,13 @@
 	bottom: 0;
 }
 
+.price{
+	position: absolute;
+	top: 0.1vw;
+	left: auto;
+	right: auto;
+}
+
 .main_bloc
 {
 	padding: 20px;
@@ -28,6 +46,10 @@
 a
 {
 	text-decoration: none;
+}
+
+a:hover {
+	color: red;
 }
 
 img
